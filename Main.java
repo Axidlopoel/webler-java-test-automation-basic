@@ -8,11 +8,16 @@ public class Main {
     private final static String CODER = "Axidlopoel";
     private static String coder = "Csaba";
 
+
     public static void main(String[] args) {
 
         System.out.println("Existing path on " + CODER + " pc: " + PATH);
         System.out.println("Non existing path: " + NON_EXISTING_PATH);
         coder = "new something";
+
+
+        // az alapértelmezett értéke null (mivel nem primitív!)
+        String defaultValue = null;
 
     }
 }
